@@ -1,0 +1,31 @@
+table {
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: #2f3542;
+    border-width: 1px;
+  }
+  /* Udda färger i tabellen */
+  tr:nth-of-type(odd) {
+    background: #ced6e0;
+  }
+  th {
+    background: #2f3542;
+    color: #ffffff;
+    font-weight: bold;
+    
+  }
+  td,
+  th {
+    padding: 6px;
+    border: 1px solid #ffffff;
+    text-align: left;
+  }
+
+  .main {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem;
+  }
